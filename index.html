@@ -1,0 +1,215 @@
+<!doctype html><html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meus Links com Tags</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+            text-align: center;
+            margin: 0;
+            padding: 0;
+        }.container {
+        margin: 20px auto;
+        width: 90%;
+        max-width: 600px;
+        background: #fff;
+        padding: 20px;
+        border-radius: 10px;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    }
+
+    .filters {
+        margin-bottom: 20px;
+    }
+
+    .filters button {
+        margin: 5px;
+        padding: 10px 15px;
+        background-color: #6200ea;
+        color: white;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        transition: background-color 0.3s ease;
+    }
+
+    .filters button:hover {
+        background-color: #3700b3;
+    }
+
+    .links a {
+        display: none;
+        text-decoration: none;
+        background-color: #6200ea;
+        color: #fff;
+        padding: 10px;
+        margin: 10px 0;
+        border-radius: 5px;
+        display: block;
+        transition: transform 0.3s ease, background-color 0.3s ease;
+    }
+
+    .links a:hover {
+        transform: scale(1.1);
+        background-color: #935DFF;
+    }
+</style>
+
+<style type="text/css" id="dcoder_stylesheet"><!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meus Links</title>
+    <style>
+        /* Fundo gradiente com bolinhas */
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+            text-align: center;
+            background: linear-gradient(to bottom, #d1d1d1, #000);
+            position: relative;
+        }
+
+        /* Bolinhas no fundo */
+        body::after {
+            content: "";
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-image: radial-gradient(circle, #b3b3b3 1px, transparent 1px);
+            background-size: 20px 20px;
+            z-index: -1;
+        }
+
+        /* Estilo da área de links */
+        .container {
+            margin: 50px auto;
+            width: 90%;
+            max-width: 400px;
+            background: #fff;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            position: relative;
+            z-index: 1; /* Para garantir que fique sobre o fundo */
+        }
+
+        .links a {
+            display: block;
+            text-decoration: none;
+            background-color: #6200ea;
+            color: #fff;
+            padding: 10px;
+            margin: 10px 0;
+            border-radius: 5px;
+            transition: transform 0.3s ease, background-color 0.3s ease;
+        }
+
+        /* Efeito no hover */
+        .links a:hover {
+            transform: scale(1.1);
+            animation: pulseHover 1.5s infinite;
+        }
+
+        @keyframes pulseHover {
+            0% { background-color: #6200ea; }
+            50% { background-color: #935DFF; } /* Tom suave */
+            100% { background-color: #6200ea; }
+        }</style></head>
+<body>
+    <div class="container">
+        <h1>Filtrar Meus Links por Tags</h1>
+        <div class="filters">
+            <button onclick="filterLinks('')">Mostrar Todos</button>
+            <button onclick="filterLinks('aprovado')">#aprovado</button>
+            <button onclick="filterLinks('em-teste')">#em teste</button>
+            <button onclick="filterLinks('btc')">#btc</button>
+            <button onclick="filterLinks('faucet')">#faucet</button>
+            <button onclick="filterLinks('mineração')">#mineração</button>
+            <button onclick="filterLinks('app')">#aplicativo</button>
+            <button onclick="filterLinks('free-fire')">#free fire</button>
+            <button onclick="filterLinks('roblox')">#roblox</button>
+            <button onclick="filterLinks('bch')">#bch</button>
+            <button onclick="filterLinks('dinheiro')">#dinheiro</button>
+            <button onclick="filterLinks('videos')">#videos</button>
+            <button onclick="filterLinks('passivo')">#passivo</button>
+            <button onclick="filterLinks('1-hora')">#1 hora</button>
+            <button onclick="filterLinks('web')">#web</button>
+            <button onclick="filterLinks('wallet')">#wallet</button>
+            <button onclick="filterLinks('pesquisa')">#pesquisa</button>
+            <button onclick="filterLinks('<30-minuto')">#&lt;30 minuto</button>
+            <button onclick="filterLinks('paypal')">#paypal</button>
+            <button onclick="filterLinks('ptc')">#ptc</button>
+            <button onclick="filterLinks('facil')">#facil</button>
+            
+        </div>
+        <div class="links">
+            <a href="https://solitaire.thndr.games/r/yU7E" class="aprovado btc facil app">Bitcoin Solitaire</a>
+            <a href="https://bitcoinbounce.thndr.games/r/39xA" class="aprovado facil btc app">Bitcoin Bounce</a>
+            <a href="https://turbo84.thndr.games/r/XTBY" class="aprovado btc facil app">Turbo 84</a>
+            <a href="https://Bit-Tycoon.com" class="em-teste mineração passivo app">Bittycoon</a>
+            <a href="https://blocks.thndr.games/r/zeD4" class="aprovado btc facil app">Tetris Tiles</a>
+            <a href="https://cashing-ltd.web.app/r/aln7jr8o" class="em-teste free-fire app">Dimas FF</a>
+            <a href="https://m-l.tech/r/?app=bch&amp;ref=CYFKJZ" class="aprovado bch app">Bitcoin Cash</a>
+            <a href="https://xworld.biz/pt-BR/share/land?userId=300586235&amp;ext=1" class="em-teste app">X World</a>
+            <a href="https://make-money.rocks/mm/7a2825ef3c099f53" class="em-teste dinheiro paypal app">Make Money</a>
+            <a href="https://mshare.tapfun.pro/invite?u=ODY4NTUwNQ==" class="em-teste videos facio dinheiro app">RioRush</a>
+            <a href="https://robox.digital/i/384232" class="aprovado mineração facil app">Robox</a>
+            <a href="https://cloudminecrypto.com/?invite_code=YNKojZBaOBWj8x1w" class="aprovado mineração passivo app">Bitcoin Cloud Mining</a>
+            <a href="https://r.honeygain.me/ASTREF0AED" class="em-teste passivo app">Honeygain</a>
+            <a href="https://freebitco.in/?r=54962905" class="em-teste 1-hora web faucet btc">FreeBitcoin</a>
+            <a href="https://apps.apple.com/us/app/id6503180820" class="em-teste passivo mineração app">Bitcoin Mining</a>
+            <a href="https://browsbit.com/share/?s=109715" class="em-teste web app">BrowsBit</a>
+            <a href="https://ncwallet.net/invite-app/LAF72CPM" class="aprovado wallet app">NC Wallet</a>
+            <a href="https://discoverpawns.eu/12251190" class="aprovado dinheiro pesquisa btc">Pawns</a>
+            <a href="https://earnbitmoon.club/?ref=1050934" class="em-teste pesquisa <30-minuto ptc faucet">Earnbitmoon</a>
+            <a href="https://viefaucet.com?r=67c4833c0e97f86b91fb9952" class="em-teste ptc faucet">Vie Faucet</a>
+            <a href="https://solpick.io/?ref=Pikachut" class="em-teste 1-hora faucet">Solpick</a>
+            <a href="https://tronpick.io/?ref=Pikachut" class="em-teste 1-hora faucet">Tronpick</a>
+            <a href="https://faucetcrypto.com/r/5006848" class="aprovado 30-minuto faucet">Faucet Crypto</a>
+            <a href="https://bestplay.onelink.me/IZ8a/referral" class="em-teste paypal app">BestPlay</a>
+            <a href="https://www.coinpayu.com/?r=GabrielDias" class="em-teste faucet">Coinpayu</a>
+            <a href="https://coin.onelink.me/ePJg/0o41gwuf" class="em-teste app">COIN</a>
+            <a href="https://freecash.com/r/D6CI3" class="em-teste dinheiro btc">Freecash</a>
+            <a href="https://giftcenter.app/?ref=2154858" class="em-teste free-fire app">Gift Center</a>
+            <a href="https://blox.land/ref/de2bba16-9f84-71c8-d09b-8f640512e9e9" class="aprovado roblox">Blox.Land</a>
+            <a href="https://rblx.land/r/5333421169" class="em-teste roblox">RBLX Land</a>
+            <a href="https://rbxplus.com/profile#" class="em-teste roblox">RbxPlus</a>
+            <a href="https://lootx.com/?r=6415362" class="aprovado facil roblox">Lootx</a>
+            <a href="https://join.skinape.com/1JOS204D" class="aprovado app">Skinape</a>
+            <a href="https://r.adbtc.top/3983231" class="em-teste ptc">ADBTC</a>
+            <a href="https://faucetworld.in/register?r=156107" class="em-teste faucet">FaucetWorld</a>
+            <a href="https://faucetpay.io/?r=8845405" class="aprovado faucet">FaucetPay</a>
+            <a href="https://autoclaim.in/r/Pikachut" class="em-teste faucet">AutoClaim</a>
+            <a href="https://cointiply.mobi/4n9n" class="em-teste faucet">Cointiply</a>
+            <a href="https://stude.co/a/TJv8yNRTxEsD2OuL" class="em-teste">BitDegree</a>
+            <a href="https://play.google.com/store/apps/details?id=com.oak.cryptosense&amp;referrer=8gSZP6bF" class="aprovado app">Crypto Sense</a>
+            <a href="https://autofaucet.dutchycorp.space/?r=Pikachut" class="em-teste faucet">Final AutoClaim</a>
+            <a href="https://timebucks.com/?refID=226000216" class="em-teste facil">Timebucks</a>
+            <a href="https://astrocash.net/?r=10263" class="em-teste rapido passivo">astrocash</a>
+            <a href="https://simplebits.io/ref/XCBZ45hAMc8rw8nbp3eOw" class="em-teste faucet web pesquisa">simplesbit</a>
+        </div>
+    </div>
+    <script>
+        function filterLinks(tag) {
+            const links = document.querySelectorAll('.links a');
+            links.forEach(link => {
+                if (tag === '' || link.classList.contains(tag)) {
+                    link.style.display = 'block';
+                } else {
+                    link.style.display = 'none';
+                }
+            });
+        }
+        filterLinks('');
+    </script>
+
+</body></html>    </script>
+
+</body></html>
