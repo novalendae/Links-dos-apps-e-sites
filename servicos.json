@@ -1,0 +1,16 @@
+[
+  {
+    "id": "codepen",
+    "nome": "CodePen",
+    "descricao": "Editor online de HTML, CSS e JS",
+    "imagem": "https://picsum.photos/250/140",
+    "link": "https://codepen.io"
+  },
+  {
+    "id": "github",
+    "nome": "GitHub",
+    "descricao": "Hospede seus códigos com Git",
+    "imagem": "https://picsum.photos/250/140?2",
+    "link": "https://github.com"
+  }
+]
