@@ -1,10 +1,10 @@
 [
   {
-    "id": "codepen",
-    "nome": "CodePen",
-    "descricao": "Editor online de HTML, CSS e JS",
+    "id": "xworld",
+    "nome": "xworld",
+    "descricao": "Aplicativo do Ativo X (World), joga para ganhar  (um pouco difícil, mas parece que paga, não testado ainda)",
     "imagem": "https://picsum.photos/250/140",
-    "link": "https://codepen.io"
+    "link": "https://xworld.biz/pt-BR/share/land?userId=300586235&ext=1"
   },
   {
     "id": "github",
