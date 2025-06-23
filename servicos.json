@@ -4,7 +4,8 @@
     "nome": "xworld",
     "descricao": "Aplicativo do Ativo X (World), joga para ganhar  (um pouco difícil, mas parece que paga, não testado ainda)",
     "imagem": "https://picsum.photos/250/140",
-    "link": "https://xworld.biz/pt-BR/share/land?userId=300586235&ext=1"
+    "link": "https://xworld.biz/pt-BR/share/land?userId=300586235&ext=1",
+"tags": ["app","passivo","fácil"]
   },
   {
     "id": "github",
