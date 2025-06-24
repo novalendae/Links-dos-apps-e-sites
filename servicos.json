@@ -5,7 +5,8 @@
     "descricao": "Aplicativo do Ativo X (World), joga para ganhar  (um pouco difícil, mas parece que paga, não testado ainda)",
     "imagem": "https://picsum.photos/250/140",
     "link": "https://xworld.biz/pt-BR/share/land?userId=300586235&ext=1",
-"tags": ["app","passivo","fácil"]
+"tags": ["app","passivo","fácil"],
+"detalhes": "Esse app permite que você ganhe tokens jogando passivamente. Exige tempo de uso e paciência, e ainda está em teste. Algumas pessoas relatam pagamentos após certo tempo, mas não há comprovação 100% segura ainda."
   },
   {
     "id": "github",
