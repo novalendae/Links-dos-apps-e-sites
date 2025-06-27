@@ -7,12 +7,4 @@
     "link": "https://xworld.biz/pt-BR/share/land?userId=300586235&ext=1",
 "tags": ["app","passivo","facil"],
 "detalhes": "Esse app permite que você ganhe tokens jogando passivamente. Exige tempo de uso e paciência, e ainda está em teste. Algumas pessoas relatam pagamentos após certo tempo, mas não há comprovação 100% segura ainda."
-  },
-  {
-    "id": "github",
-    "nome": "GitHub",
-    "descricao": "Hospede seus códigos com Git",
-    "imagem": "https://picsum.photos/250/140?2",
-    "link": "https://github.com"
   }
-]
