@@ -1,11 +1,74 @@
 [
   {
+    "id": "bittycoon",
+    "nome": "Bittycoon",
+    "descricao": "Simulador de mineração que consome bastante bateria. Ainda em fase de testes.",
+    "detalhes": "Bittycoon é um jogo de simulação onde você gerencia uma fazenda de mineração virtual. Apesar de promissor, o consumo de energia é alto e ainda está em avaliação.",
+    "link": "https://Bit-Tycoon.com",
+    "tags": ["em-teste", "mineração"]
+  },
+  {
+    "id": "tetris-tiles",
+    "nome": "Tetris Tiles",
+    "descricao": "Jogo estilo Tetris que paga de verdade. Aprovado!",
+    "detalhes": "Tetris Tiles é um jogo de blocos com recompensas em criptomoedas. Já foi testado e comprovadamente paga.",
+    "link": "https://blocks.thndr.games/r/zeD4",
+    "tags": ["aprovado", "jogo", "btc"]
+  },
+  {
+    "id": "dimas-ff",
+    "nome": "Dimas FF",
+    "descricao": "Aplicativo em teste. Relacionado ao universo Free Fire.",
+    "detalhes": "Dimas FF promete recompensas para jogadores de Free Fire, mas ainda está em fase de testes.",
+    "link": "https://cashing-ltd.web.app/r/aln7jr8o",
+    "tags": ["em-teste", "free-fire"]
+  },
+  {
+    "id": "bitcoin-cash",
+    "nome": "Bitcoin Cash (BCH)",
+    "descricao": "Não confunda com BTC! Esse app paga em BCH e funciona de forma diferente.",
+    "detalhes": "Aplicativo de recompensas em Bitcoin Cash. O sistema de pagamento é diferente, mas já foi aprovado.",
+    "link": "https://m-l.tech/r/?app=bch&ref=CYFKJZ",
+    "tags": ["aprovado", "bch", "wallet"]
+  },
+  {
     "id": "xworld",
-    "nome": "xworld",
-    "descricao": "Aplicativo do Ativo X (World), joga para ganhar  (um pouco difícil, mas parece que paga, não testado ainda)",
-    "imagem": "https://picsum.photos/250/140",
+    "nome": "X World",
+    "descricao": "Jogo do Ativo X. Um pouco difícil, mas parece legítimo.",
+    "detalhes": "X World é um jogo de mundo virtual com recompensas em cripto. Ainda não testado, mas tem potencial.",
     "link": "https://xworld.biz/pt-BR/share/land?userId=300586235&ext=1",
-"tags": ["app","passivo","facil"],
-"detalhes": "Esse app permite que você ganhe tokens jogando passivamente. Exige tempo de uso e paciência, e ainda está em teste. Algumas pessoas relatam pagamentos após certo tempo, mas não há comprovação 100% segura ainda."
+    "tags": ["em-teste", "jogo", "aplicativo"]
+  },
+  {
+    "id": "make-money",
+    "nome": "Make Money",
+    "descricao": "App de recompensas em dólar. Ainda não testado.",
+    "detalhes": "Make Money oferece tarefas simples com pagamento em dólar. Ainda está em fase de avaliação.",
+    "link": "https://make-money.rocks/mm/7a2825ef3c099f53",
+    "tags": ["em-teste", "dólar", "facil"]
+  },
+  {
+    "id": "riorush",
+    "nome": "RioRush",
+    "descricao": "Jogo ainda não testado. Promete recompensas.",
+    "detalhes": "RioRush é um jogo mobile com sistema de recompensas. Ainda não foi testado.",
+    "link": "https://mshare.tapfun.pro/invite?u=ODY4NTUwNQ==",
+    "tags": ["em-teste", "jogo"]
+  },
+  {
+    "id": "robox",
+    "nome": "Robox",
+    "descricao": "Minerador de criptomoedas. Paga e envia para NC Wallet.",
+    "detalhes": "Robox é um app de mineração que converte ganhos em BTC, ETH e outras moedas via NC Wallet. Já testado e aprovado.",
+    "link": "https://robox.digital/i/384232",
+    "tags": ["aprovado", "mineração", "wallet"]
+  },
+  {
+    "id": "bitcoin-cloud-mining",
+    "nome": "Bitcoin Cloud Mining",
+    "descricao": "Renda passiva em nuvem. Lento, mas confiável.",
+    "detalhes": "Esse app permite mineração em nuvem. Basta ativar e esquecer. Funciona como uma renda passiva.",
+    "link": "https://cloudminecrypto.com/?invite_code=YNKojZBaOBWj8x1w",
+    "tags": ["aprovado", "passivo", "mineração"]
   }
 ]
