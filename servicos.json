@@ -1,13 +1,16 @@
 [
   {
-    "id": "bittycoon",
-    "nome": "Bittycoon",
-    "descricao": "Simulador de mineração que consome bastante bateria. Ainda em fase de testes.",
-    "detalhes": "Bittycoon é um jogo de simulação onde você gerencia uma fazenda de mineração virtual. Apesar de promissor, o consumo de energia é alto e ainda está em avaliação.",
-    "link": "https://Bit-Tycoon.com",
-    "imagem": "https://picsum.photos/seed/bittycoon/300/200",
-    "tags": ["em-teste", "mineração"]
-  },
+  "id": "bittycoon",
+  "nome": "Bittycoon",
+  "descricao": "Simulador de mineração que consome bastante bateria. Ainda em fase de testes.",
+  "detalhes": "Bittycoon é um jogo de simulação onde você gerencia uma fazenda de mineração virtual. Apesar de promissor, o consumo de energia é alto e ainda está em avaliação.",
+  "link": "https://Bit-Tycoon.com",
+  "imagem": [
+    "https://i.imgur.com/Bmw0Nf1.png",
+    "https://picsum.photos/seed/bittycoon/300/200"
+  ],
+  "tags": ["em-teste", "mineração"]
+},
   {
     "id": "tetris-tiles",
     "nome": "Tetris Tiles",
